@@ -1,0 +1,273 @@
+
+* {
+    box-sizing: border-box;
+  }
+
+/* my chosen color palette */
+:root {
+    --periwinkle: #9DACFF;
+    --baby-blue: #E1F3FF;
+    --purple: #624CAB;
+    --white: #FBFEFB;
+  }
+
+/* properties for body styling */
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiko', 'Helvetica', 'Monaco', 'Lucida Console';
+    color: var(--periwinkle);
+    background-color: var(--white);
+  }
+
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+/* properties for body styling */
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiko', 'Helvetica', 'Monaco', 'Lucida Console';
+    color: var(--periwinkle);
+    background-color: var(--white);
+  }
+
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+/* general header properties */
+header {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--purple);
+    box-shadow: 0 0 20px #AFD5FF;
+  }
+
+/* properties for text in header's h1 */  
+header > h1 {
+    color: var(--purple);
+    background-color: var(--baby-blue);
+    padding: 10px 15px 10px 40px;
+    margin: 0;
+    font-size: 70px;
+  }
+
+/* properties for the display of the navigation elements */ 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+/* properties for the navigation links' texts */ 
+  nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--baby-blue);
+    margin: 10px;
+    border-bottom: 2px solid var(--baby-blue);
+    font-size: 25px;
+  }
+
+/* changes the color of the navigation links when you go over them */
+  nav a:hover {
+    color: var(--periwinkle);
+  }
+
+  /* main image properties */ 
+  .main-image {
+    background-image: url("./images/iunctus.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    padding: 5% 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    flex: 0 0 75%;
+  }
+
+/* properties of the text over main image */
+  .main-image h2 {
+    background-color: var(--baby-blue);
+    color: var(--purple);
+    padding: 5px 10px;
+    font-size: 40px;
+    inline-size: 30px;
+    display: inline;
+  }
+
+/* styling for both the "about me" and "my works" sections */
+  .info-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+/* styling for the h2 elements in "about me" and "my works" sections */
+.info-section > h2 {
+  flex: 0 0 20%;
+  text-align: right;
+  padding-right: 15px;
+  border-right: 4px solid var(--periwinkle);
+  font-size: 5vw;
+  line-height: 1;
+}
+
+/* styles the box containing texts in the about me and the my works sections */
+.info-section > div {
+    flex: 0 0 77%;
+  }
+
+/* gives the paragraphs in the about me and the my work sections a bottom margin */
+  .info-section > p {
+    margin-bottom: 20px;
+  }
+  
+  /* projects section general properties */
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 2em;
+  }
+
+  /* projects section individual boxes properties */
+  .flex-item {
+    background-color: var(--periwinkle);
+    color: var(--purple);
+    min-height: 130px;
+    max-height: 130px;
+    flex-basis: 50%;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 10px;
+    text-decoration: none;
+    background-size: 100%;
+    font-size: 13px;
+  }
+
+  /* sets the properties for the box containing the text inside the image box of each project */
+  .flex-item div {
+    background-color: var(--baby-blue);
+    padding: 8px 10px;
+  }
+  
+  /* sets the size for the headers in the projects section (name of the projects) */
+  .flex-item h3 {
+    font-size: 25px;
+  }
+
+    /* work projects images */
+
+    .haku {
+        background-image: url("./images/haku.png");
+      }
+      
+      .fm2tm {
+        background-image: url("./images/fm2tm.png");
+      }
+      
+      .che {
+        background-image: url("./images/che.jpg");
+      }
+      
+      .hybrid {
+        background-image: url("./images/hybrid.jpg");
+      }
+      
+      .mali {
+        background-image: url("./images/mali.jpg");
+      }
+
+/* general styling for the contact me section */
+  .contact address {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  }
+  
+/* properties for the links' text inside the contact me section */
+  .contact address a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--periwinkle);
+    margin: 10px;
+    border-bottom: 2px solid var(--periwinkle);
+    font-size: 25px;
+  }
+
+/* links in the contact me section change color to purple when the cursor goes over them */
+  .contact address a:hover {
+    color: var(--purple);
+  }
+
+/* media queries for elements using flex */
+@media screen and (max-width: 980px) {
+    header {
+      justify-content: space-between;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 70px;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .page-section > h2 {
+      flex: 0 0 100%;
+      margin-bottom: 30px;;
+      text-align: left;
+      font-size: 10px;
+    }
+
+    .flex-item{
+      flex-basis: 100%;
+    }
+  
+    .flex-item:first-child {
+      flex-basis: 100%;
+      min-height: 150px;
+    }
+  
+    .main-image {
+      justify-content: center;
+      text-align: center;
+      line-height: 75px;
+    }
+  
+    .contact address {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
