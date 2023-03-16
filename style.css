@@ -46,3 +46,24 @@ p {
 h1,h2,h3,h4,h5,h6 {
   margin: 0;
 }
+
+/* general header properties */
+header {
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--purple);
+    box-shadow: 0 0 20px #AFD5FF;
+  }
+
+/* properties for text in header's h1 */  
+header > h1 {
+    color: var(--purple);
+    background-color: var(--baby-blue);
+    padding: 10px 15px 10px 40px;
+    margin: 0;
+    font-size: 70px;
+  }
