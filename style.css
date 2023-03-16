@@ -10,3 +10,39 @@
     --purple: #624CAB;
     --white: #FBFEFB;
   }
+
+/* properties for body styling */
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiko', 'Helvetica', 'Monaco', 'Lucida Console';
+    color: var(--periwinkle);
+    background-color: var(--white);
+  }
+
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
+
+/* properties for body styling */
+@import url('https://fonts.googleapis.com/css?family=Amiko');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Amiko', 'Helvetica', 'Monaco', 'Lucida Console';
+    color: var(--periwinkle);
+    background-color: var(--white);
+  }
+
+p {
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+}
