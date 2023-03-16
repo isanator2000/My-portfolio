@@ -89,3 +89,27 @@ nav {
   nav a:hover {
     color: var(--periwinkle);
   }
+
+  /* main image properties */ 
+  .main-image {
+    background-image: url("./images/iunctus.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    padding: 5% 5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+    flex: 0 0 75%;
+  }
+
+/* properties of the text over main image */
+  .main-image h2 {
+    background-color: var(--baby-blue);
+    color: var(--purple);
+    padding: 5px 10px;
+    font-size: 40px;
+    inline-size: 30px;
+    display: inline;
+  }
