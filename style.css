@@ -67,3 +67,25 @@ header > h1 {
     margin: 0;
     font-size: 70px;
   }
+
+/* properties for the display of the navigation elements */ 
+nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+/* properties for the navigation links' texts */ 
+  nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    color: var(--baby-blue);
+    margin: 10px;
+    border-bottom: 2px solid var(--baby-blue);
+    font-size: 25px;
+  }
+
+/* changes the color of the navigation links when you go over them */
+  nav a:hover {
+    color: var(--periwinkle);
+  }
