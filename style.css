@@ -134,3 +134,21 @@ nav {
   font-size: 5vw;
   line-height: 1;
 }
+
+/* styles the box containing texts in the about me and the my works sections */
+.info-section > div {
+    flex: 0 0 77%;
+  }
+
+/* gives the paragraphs in the about me and the my work sections a bottom margin */
+  .info-section > p {
+    margin-bottom: 20px;
+  }
+  
+  /* projects section general properties */
+  .flex-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    gap: 2em;
+  }
