@@ -90,6 +90,15 @@ nav {
     color: var(--periwinkle);
   }
 
+
+
+  #me {
+    height: 200px;
+    width: 200px;
+  }
+
+
+
   /* main image properties */ 
   .main-image {
     background-image: url("./images/iunctus.jpg");
@@ -108,7 +117,7 @@ nav {
   .main-image h2 {
     background-color: var(--baby-blue);
     color: var(--purple);
-    padding: 5px 10px;
+    padding: 5px 5px;
     font-size: 40px;
     inline-size: 30px;
     display: inline;
