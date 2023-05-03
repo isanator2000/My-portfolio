@@ -10,12 +10,12 @@ and some placeholder projects I've done (unrelated to coding), that I'll eventua
 ## Usage
 
 To navigate through this webpage, you can click on the navigation elements displayed in the header bar. Doing so will take you to the corresponding section in the page.
-![Screenshot showing the header and main image](./images/screenshot1.png)
-![Screenshot showing the about me section](./images/screenshot2.png)
-![Screenshot showing the my work section and the contact me footer](./images/screenshot3.png)
-![Screenshot showing the page in min. width](./images/screenshot4.png)
-![Screenshot showing the page in min. width](./images/screenshot5.png)
-![Screenshot showing the page in min. width](./images/screenshot6.png)
+![Screenshot showing the header and main image](./assets/images/screenshot1.png)
+![Screenshot showing the about me section](./assets/images/screenshot2.png)
+![Screenshot showing the my work section and the contact me footer](./assets/images/screenshot3.png)
+![Screenshot showing the page in min. width](./assets/images/screenshot4.png)
+![Screenshot showing the page in min. width](./assets/images/screenshot5.png)
+![Screenshot showing the page in min. width](./assets/images/screenshot6.png)
 
 [My portfolio page](https://isanator2000.github.io/My-portfolio/)
 
