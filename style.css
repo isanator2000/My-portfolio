@@ -170,7 +170,7 @@ nav {
   }
 
   .flex-item:hover {
-    opacity: 70%
+    opacity: 70%;
   }
 
   /* sets the properties for the box containing the text inside the image box of each project */
