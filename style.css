@@ -169,6 +169,10 @@ nav {
     font-size: 13px;
   }
 
+  .flex-item:hover {
+    opacity: 70%;
+  }
+
   /* sets the properties for the box containing the text inside the image box of each project */
   .flex-item div {
     background-color: var(--baby-blue);
